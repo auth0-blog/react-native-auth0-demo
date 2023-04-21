@@ -16,7 +16,7 @@ const Home = () => {
         customScheme: customScheme
       });
     } catch (e) {
-      console.log(e);
+      throw Error('There was an issue authenticating the user. Please try again.');
     }
   };
 
