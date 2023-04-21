@@ -12,7 +12,11 @@ This application uses the `react-native-auth0` SDK which is not compatible with 
 
 2. Copy the `.env.example` file to `.env` and complete the values for `AUTH0_DOMAIN`, `AUTH0_CLIENT_ID`, and `AUTH0_AUDIENCE` from your Auth0 settings. (See [Register with Auth0](https://auth0.com/blog/call-protected-apis-from-a-react-native-mobile-application) for more details)
 
-3. Run the application
+3. Set up an API using the stack of your choice following one of our [API guides](https://developer.auth0.com/resources/guides/api)
+
+4. Set the environment variable `API_URL` to match the root URL of your API
+
+5. Run the mobile application in your favorite mobile platform:
 
     ```shell
     # iOS target platform
